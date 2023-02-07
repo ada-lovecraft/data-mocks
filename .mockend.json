@@ -1,5 +1,4 @@
 {
-  {
   "Post": {
     "_": {
       "items": 10
@@ -63,8 +62,7 @@
     "post": {
       "belongsTo": "Post"
     }
-  }
-},
+  },
   "Activity": {
     "name": { "loremWords": { "minLength": 2, "maxLength": 4 } },
     "description": { "loremSentences": { "minLength": 100, "maxLength": 180 } }
