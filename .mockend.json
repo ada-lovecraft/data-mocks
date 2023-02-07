@@ -1,6 +1,6 @@
 {
   "Activity": {
     "name": { "loremWords": { "minLength": 2, "maxLength": 4 } },
-    "description": { "loremSentences": { "minLength": 100, "maxLength": "180" } }
+    "description": { "loremSentences": { "minLength": 100, "maxLength": 180 } }
   }
 } 
