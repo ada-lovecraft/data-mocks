@@ -1,5 +1,7 @@
 {
-  "User": {
-    "title": { "string": {} }
+  "Activity": {
+    "id":  { "regexp": "([a-f0-9]-){4}[a-f0-9]" }
+    "name": { "loremWords": { "minLength": 2, "maxLength": 4 }
+    "description": { "loremSentences": { "minLength": 100, maxLength: "180" }
   }
 } 
